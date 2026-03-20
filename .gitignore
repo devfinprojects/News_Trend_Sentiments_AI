@@ -47,6 +47,10 @@ logs/
 # MLflow tracking (not used)
 mlflow_tracking/
 
+# MLflow database
+mlflow.db
+mlflow.db-journal
+
 # Environment variables (but keep .env.example)
 .env
 .env.local
@@ -54,3 +58,6 @@ mlflow_tracking/
 # Temporary files
 *.tmp
 *.temp
+
+# Project specific
+TASKS.MD
